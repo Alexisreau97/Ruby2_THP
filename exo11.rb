@@ -11,4 +11,4 @@ def summation(nombre)
 	end
 end
 
-summation(4)
+summation(8)

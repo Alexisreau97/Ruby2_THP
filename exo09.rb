@@ -1,6 +1,6 @@
-def chaine(words)
-	chaine = words.delete(" ")
-	puts chaine
+def string(words)
+	string = words.delete(" ")
+	puts string
 end
 
-chaine("coucou toi")
+string("Salut ça farte ?")

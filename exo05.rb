@@ -1,10 +1,9 @@
-def string(caractère)
-	reversechop = caractère
-	reversechop = reversechop.chop
-	reversechop = reversechop.reverse
-	reversechop = reversechop.chop
-	reversechop = reversechop.reverse
-	puts reversechop
+def delete(string)
+	string = string.chop
+	string = string.reverse
+	string = string.chop
+	string = string.reverse
+	puts string
 end
 
-string("salut")
+delete("Je n'ai plus de première et dernière lettre")
